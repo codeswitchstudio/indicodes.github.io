@@ -1,6 +1,7 @@
 body {
     margin: auto 0;
-}
+    font-family: sans-serif;
+} 
 
 .zone {
     /*padding:30px 50px;
@@ -17,13 +18,23 @@ body {
 }
 
 
-.zone:hover {
-    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+/*.zone:hover {
+    -webkit-box-tilt:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-}
+}*/
+
 /*NAV*/
+
+.sticky {
+    position: fixed;        
+    top: 0;
+    width: 100%;
+    display: flex;
+    
+}
+
 
 .main-nav {
     display: flex;
@@ -47,7 +58,7 @@ body {
 
 
 li {
-    padding: 20px;
+    padding: 15px;
 }
 
 a {
@@ -60,7 +71,11 @@ a {
     display: flex;  
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    height: 70vh;
+}
+
+.cover {    
+    width:  30rem;
 }
 
 /* GRID */
@@ -72,6 +87,7 @@ a {
 
 .box > img {
     width: 100%;
+    height: auto;
 }
 
 .box {
@@ -83,6 +99,7 @@ a {
 
 footer {
     text-align: center;
+    padding: 20px;
 }
 
 
@@ -116,7 +133,7 @@ footer {
     background: -ms-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* IE10+ */
     background: linear-gradient(top, #C655BE 0%,#cf0404 100%); /* W3C */
 
-    display: flex;
+    /*display: flex;*/
 }
 
 /***********************************************************************
